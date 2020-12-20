@@ -1,5 +1,7 @@
 package io.springopenrtb.ssp.app
 
+import org.springframework.boot.SpringApplication
+import org.springframework.boot.WebApplicationType
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
@@ -7,5 +9,9 @@ import org.springframework.boot.runApplication
 class AppApplication
 
 fun main(args: Array<String>) {
-    runApplication<AppApplication>(*args)
+    val app = SpringApplication(AppApplication::class.java)
+    app.webApplicationType = WebApplicationType.REACTIVE
+
+    app.run(*args)
+//    runApplication<AppApplication>(*args)
 }
