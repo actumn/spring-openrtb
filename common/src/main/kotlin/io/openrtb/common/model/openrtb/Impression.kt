@@ -12,9 +12,9 @@ data class Impression(
     var bidfloor: Float? = 0.0f,
     var bidfloorcur: String? = "USD",
     var secure: Int?,
-    var iframebuster: List<String>,
+    var iframebuster: List<String>?,
     var pmp: Pmp?,
-    var ext: String
+    var ext: String?
 )
 
 

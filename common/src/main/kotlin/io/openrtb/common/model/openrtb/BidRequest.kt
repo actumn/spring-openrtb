@@ -17,7 +17,7 @@ data class BidRequest(
     var cur: List<String>?, // currencies
     var bcat: List<String>?, // blocked advertiser categories
     var badv: List<String>?,
-    var regs: Regs,
+    var regs: Regs?,
     var ext: List<String>? // placeholder for exchange-specific extensions to OpenRTB
 )
 
