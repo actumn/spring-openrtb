@@ -1,9 +1,9 @@
 package io.springopenrtb.ssp.app
 
-import io.openrtb.common.model.AdvertiserBlocklistRequest
-import io.openrtb.common.model.AdvertiserBlocklistResponse
-import io.openrtb.common.model.Status
-import io.openrtb.common.model.StatusCode
+import io.openrtb.common.model.blocklist.AdvertiserBlocklistRequest
+import io.openrtb.common.model.blocklist.AdvertiserBlocklistResponse
+import io.openrtb.common.model.blocklist.Status
+import io.openrtb.common.model.blocklist.StatusCode
 import org.springframework.stereotype.Component
 import org.springframework.web.reactive.function.BodyInserters.fromValue
 import org.springframework.web.reactive.function.server.ServerRequest

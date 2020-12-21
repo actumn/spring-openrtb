@@ -1,4 +1,4 @@
-package io.openrtb.common.model
+package io.openrtb.common.model.blocklist
 
 import com.fasterxml.jackson.annotation.JsonProperty
 

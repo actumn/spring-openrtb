@@ -1,10 +1,10 @@
 package io.springopenrtb.ssp.app
 
-import io.openrtb.common.model.Advertiser
-import io.openrtb.common.model.Blocklist
+import io.openrtb.common.model.blocklist.Advertiser
+import io.openrtb.common.model.blocklist.Blocklist
 
 class SupplySideService {
-    val blocklistDB = mapOf<String, List<Blocklist>>(
+    val blocklistDB = mapOf(
         "acmeluxuryfurniture.com" to listOf(
             Blocklist("3422", "Joe's News", null, null),
             Blocklist("2342", "Big Portal", "1", "Finance section"),
