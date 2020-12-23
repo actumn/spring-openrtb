@@ -1,7 +1,6 @@
 package io.springopenrtb.dsp.app.handler
 
 import io.openrtb.common.model.openrtb.BidRequest
-import io.springopenrtb.dsp.app.config.DspProperties
 import io.springopenrtb.dsp.app.service.DemandSideService
 import org.springframework.stereotype.Component
 import org.springframework.web.reactive.function.BodyInserters.fromValue
@@ -12,7 +11,6 @@ import reactor.core.publisher.Mono
 
 @Component
 class APIHandler(
-    val dspProperties: DspProperties,
     val demandSideService: DemandSideService
 ) {
     fun dsp(request: ServerRequest): Mono<ServerResponse> {

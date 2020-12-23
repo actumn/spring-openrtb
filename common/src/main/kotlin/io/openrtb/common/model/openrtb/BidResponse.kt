@@ -28,6 +28,6 @@ data class Bid(
     var irul: String?,
     var cid: String?,
     var crid: String?,
-    var attr: List<Int>,
-    var ext: String
+    var attr: List<Int>?,
+    var ext: String?
 )

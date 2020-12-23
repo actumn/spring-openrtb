@@ -6,6 +6,6 @@ import org.springframework.boot.context.properties.ConstructorBinding
 
 @ConstructorBinding
 @ConfigurationProperties(prefix = "dsp")
-data class DspProperties (
+data class DspConfig (
     var dblocation: String?
 )

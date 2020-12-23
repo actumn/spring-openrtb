@@ -1,7 +1,4 @@
 {
-    "serverport":"8888",
-    "requestTO":"4500",
-    "offerTO":"2000",
     "exchanges":[
         {
             "orgname":"BigAdExchange",
