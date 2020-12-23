@@ -1,8 +1,10 @@
-package io.springopenrtb.ssp.app
+package io.springopenrtb.ssp.app.service
 
 import io.openrtb.common.model.blocklist.Advertiser
 import io.openrtb.common.model.blocklist.Blocklist
+import org.springframework.stereotype.Service
 
+@Service
 class SupplySideService {
     val blocklistDB = mapOf(
         "acmeluxuryfurniture.com" to listOf(

@@ -1,5 +1,6 @@
-package io.springopenrtb.dsp.app
+package io.springopenrtb.dsp.app.config
 
+import io.springopenrtb.dsp.app.handler.APIHandler
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration
 import org.springframework.web.reactive.function.server.router

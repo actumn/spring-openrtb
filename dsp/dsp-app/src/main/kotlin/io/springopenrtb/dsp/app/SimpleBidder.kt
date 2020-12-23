@@ -1,4 +1,4 @@
 package io.springopenrtb.dsp.app
 
-class DemandSideService {
+class SimpleBidder {
 }
